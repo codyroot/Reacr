@@ -1,8 +1,10 @@
 {
-	"name": "Isomorphe Templates",
+	"name": "IsomorpheTemplates",
 	"main": "server.js",
+	"scripts": {
+		"start": "node ./bin/www"
+	},
 	"dependencies": {
-		"body-parser": "~1.0.0",
 		"ejs": "~0.8.5",
 		"express": "~4.0.0"
 	},
@@ -10,7 +12,6 @@
 		"browserify": "~3.20.x",
 		"gulp": "~3.8.x",
 		"gulp-browserify": "~0.5.x",
-		"gulp-concat": "~2.4.x",
 		"node-jsx": "~0.2.x",
 		"react": "^0.12.x",
 		"react-tools": "^0.12.x",

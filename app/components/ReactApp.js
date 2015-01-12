@@ -1,5 +1,8 @@
 /** @jsx React.DOM */
 
+/**
+ * Client & Server Side Shared Code
+ */
 var React = require('react/addons');
 
 var ReactApp = React.createClass({
@@ -22,5 +25,5 @@ var ReactApp = React.createClass({
 
 console.dir(ReactApp);
 
-/* Module.exports instead of normal dom mounting */
-exports.ReactApp = ReactApp;
+/* Export Module instead of normal dom insert */
+module.exports = ReactApp;
